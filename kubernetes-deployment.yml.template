@@ -32,7 +32,7 @@ spec:
       - name: aura-js-creditscore
 #
 # _CHANGE_Part_3_Service_Broker_Integration_ : Uncomment the following env block to test service broker integration
-#
+#x
         env:
         - name: DB_INFO
           valueFrom:
