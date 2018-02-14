@@ -25,7 +25,6 @@ exports.list = function(req, res){
 //    res.setHeader('Content-Type', 'application/json');
 //    res.send(JSON.stringify(resultData));
 
-
     // Start of db code block
     console.log("Access the env variable in nodejs. Value of : process.env" + process.env);
     var DB_INFO = process.env.DB_INFO;
